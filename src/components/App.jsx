@@ -1,6 +1,11 @@
 import React, { useState } from "react";
+import Compo from "./compo";
+
 
 function App() {
+
+  Compo()
+  
   const [name, setName] = useState("");
   const [value, setValue] = useState("");
 
