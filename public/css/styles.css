@@ -60,7 +60,7 @@ body {
 .nav-link {
   color: black;
   text-decoration: none;
-  margin: 10px 20px;
+  margin: 10px 40px;
   font-size: smaller;
 
 }
@@ -70,6 +70,8 @@ body {
   background-color: white;
   padding: 30px;
   text-align: right;
+  margin-left: 10%;
+  margin-right: 15%;
   /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
  
   /* border-bottom-left-radius: 7px;
@@ -252,6 +254,79 @@ body {
   box-shadow: 0 4px 8px 4px rgb(0 0 0 / 5%);
   /* box-shadow: 0 5px 5px -5px rgb(0 0 0 / 25%); */
   /* color: #303b4f; */
-  color: #738696;
+  /* color: #738696; */
   /* font-weight: lighter; */
+}
+
+
+
+
+/* section 3 */
+.section3-container{
+  background-color: white;
+  /* margin: 5%; */
+  /* background-color: cadetblue; */
+}
+
+.cardholder2 {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+  text-align: center;
+  
+
+}
+
+
+
+
+
+
+
+
+/* section 4 */
+
+.section4-container{
+  margin: 5%;
+  /* background-color: cadetblue; */
+}
+
+
+
+/* Newsletter */
+
+.newsletter-container{
+  color: white;
+  padding: 3%;
+  margin: 2% 15%;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  background: linear-gradient( 90deg, rgba(121,110,255,1) 0%, rgba(250,169,67,1) 120%);
+
+}
+
+
+
+/* Footer */
+.footer-container{
+  padding-top: 2%;
+  text-align: left;
+  color: white;
+  background-image: url("https://alexsolutions.com.au/assets/themes/alexsolutions/library/images/footer-bg.png");
+}
+
+.footer-info{
+  margin-left: 2%;
+}
+
+.copyright-container{
+  padding: 1%;
+  text-align: center;
+  /* background-color: yellowgreen; */
+}
+.horizontal-line{
+  /* margin: 3% 0%; */
+  margin-top: 2%;
+  border: 1px solid white;
+  
 }
