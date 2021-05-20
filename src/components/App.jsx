@@ -1,32 +1,50 @@
-import React, { useState } from "react";
-import Compo from "./compo";
+import React from "react";
+import Headertop from "./header/headertop";
+import Header from "./header/header";
+import Body from "./body/body";
+import Footer from "./footer/footer";
 
 
 function App() {
-
-  Compo()
-  
-  const [name, setName] = useState("");
-  const [value, setValue] = useState("");
-
-  function grabText(event) {
-    setName(event.target.value);
-  }
-
-  function handleClick() {
-    setValue(name);
-  }
-
   return (
-    <div className="container">
-      <h1>Hello {value}</h1>
-      <input
-        onChange={grabText}
-        type="text"
-        placeholder="What's your name?"
-        value={name}
-      />
-      <button onClick={handleClick}>Submit</button>
+    <div className="App container">
+    <Headertop/>
+    <Header/>
+    <Body/>
+    <Footer/> 
+    <Body/>
+    <Footer/> 
+    <Body/>
+    <Footer/> 
+    <Body/>
+    <Footer/> 
+    <Body/>
+    <Footer/> 
+
+    <Body/>
+    <Footer/> 
+    <Body/>
+    <Footer/> 
+    <Body/>
+    <Footer/> 
+    <Body/>
+    <Footer/> 
+    <Body/>
+    <Footer/> 
+    <Body/>
+    <Footer/> 
+    <Body/>
+    <Footer/> 
+    <Body/>
+    <Footer/> 
+
+    <Body/>
+    <Footer/> 
+    <Body/>
+    <Footer/> 
+    <Body/>
+    <Footer/> 
+    
     </div>
   );
 }
