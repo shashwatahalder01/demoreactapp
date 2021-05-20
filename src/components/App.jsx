@@ -11,40 +11,7 @@ function App() {
     <Headertop/>
     <Header/>
     <Body/>
-    <Footer/> 
-    <Body/>
-    <Footer/> 
-    <Body/>
-    <Footer/> 
-    <Body/>
-    <Footer/> 
-    <Body/>
-    <Footer/> 
-
-    <Body/>
-    <Footer/> 
-    <Body/>
-    <Footer/> 
-    <Body/>
-    <Footer/> 
-    <Body/>
-    <Footer/> 
-    <Body/>
-    <Footer/> 
-    <Body/>
-    <Footer/> 
-    <Body/>
-    <Footer/> 
-    <Body/>
-    <Footer/> 
-
-    <Body/>
-    <Footer/> 
-    <Body/>
-    <Footer/> 
-    <Body/>
-    <Footer/> 
-    
+    <Footer/>  
     </div>
   );
 }
